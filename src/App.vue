@@ -1,44 +1,40 @@
 <script setup>
-import Style from './assets/style.css'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-<h1>1231312321</h1>
-    </div>
-  </header>
-
   <main>
-<h2>asdadasd</h2>
+    <div class="main__section">
+      здание
+      <div class="elevator wrapper">
+        лифт
+      </div>
+      <div class="levels">
+        <div class="level">1</div>
+        <div class="level">2</div>
+        <div class="level">3</div>
+        <div class="level">4</div>
+        <div class="level">5</div>
+      </div>
+    </div>
   </main>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
+<style>
+.main__section {
+  width: 350px;
+  height: 500px;
+  border: 1px solid red;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+.elevator {
+  width: 40px;
+  height: 60px;
+  border: 3px lightcoral dashed;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+.levels {
+  background-color: grey;
+  height: 100%;
+  width: 100%;
 }
 </style>
