@@ -1,5 +1,5 @@
 <script setup>
-
+import Style from './assets/style.css'
 </script>
 
 <template>
