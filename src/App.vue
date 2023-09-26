@@ -9,11 +9,21 @@
         лифт
       </div>
       <div class="levels">
-        <div class="level">1</div>
-        <div class="level">2</div>
-        <div class="level">3</div>
-        <div class="level">4</div>
-        <div class="level">5</div>
+        <div class="level">1
+        <button class="btn"></button>
+        </div>
+        <div class="level">2
+        <button class="btn"></button>
+        </div>
+        <div class="level">3
+        <button class="btn"></button>
+        </div>
+        <div class="level">4
+        <button class="btn"></button>
+        </div>
+        <div class="level">5
+        <button class="btn"></button>
+        </div>
       </div>
     </div>
   </main>
@@ -36,5 +46,10 @@
   background-color: grey;
   height: 100%;
   width: 100%;
+}
+.btn{
+  margin: 0;
+  padding: 5px;
+  border-radius: 30px;
 }
 </style>
